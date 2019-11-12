@@ -1,6 +1,6 @@
-# Loyalty Service en GO
+# Loyalty Service
 
-[Microservicios Loyalty](https://github.com/gabriel-giorgi/tp-arquitectura-de-microservicios)
+[Microservicio Loyalty](https://github.com/gabriel-giorgi/tp-arquitectura-de-microservicios)
 
 Se encarga de manejar los profiles de los usuarios como asi manejar el descuento que le corresponde dependiendo de su nivel
 
@@ -35,7 +35,7 @@ No se requiere ninguna configuración adicional, solo levantarlo luego de instal
 
 ## RabbitMQ
 
-Este microservicio notifica los logouts de usuarios con Rabbit.
+Este microservicio utiliza Rabbit.
 
 Seguir los pasos de instalación en la pagina oficial [rabbitmq.com](https://www.rabbitmq.com/)
 
@@ -45,7 +45,7 @@ No se requiere ninguna configuración adicional, solo levantarlo luego de instal
 
 Apidoc es una herramienta que genera documentación de apis para proyectos node (ver [Apidoc](http://apidocjs.com/)).
 
-El microservicio muestra la documentación como archivos estáticos si se abre en un browser la raíz del servidor [localhost:3000](http://localhost:3000/)
+El microservicio muestra la documentación como archivos estáticos si se abre en un browser la raíz del servidor [localhost:4100](http://localhost:4100/v1/loyalty/)
 
 Ademas se genera la documentación en formato markdown.
 
