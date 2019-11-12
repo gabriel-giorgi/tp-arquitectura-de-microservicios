@@ -1,0 +1,6 @@
+{
+    "port": 4100,
+    "rabbitUrl": "amqp://localhost",
+    "mongoUrl": "mongodb://localhost:27017",
+    "wwwPath": "www"
+}
